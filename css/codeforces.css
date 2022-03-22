@@ -19,8 +19,9 @@
     width: 65px;
     height: 30px;
     border-radius: 4px;
-    margin-left: calc(100% - 85px);
+    margin-left: calc(50% - 85px);
     margin-bottom: 45px;
+	display: inline-block;
 }
 
 #competitiveTrainer .btn-primary:hover{
