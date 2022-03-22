@@ -42,6 +42,10 @@ $('#competitiveTrainer #codeForcesRandom').on('click',()=>{
     }
 });
 
+$('#competitiveTrainer #codeForcesClear').on('click',()=>{
+    codeForcesClear();
+});
+
 function codeForcesRandom(){
     let tagArr = ""
     for(let i = 1;i<=arr.length;i++){
@@ -71,4 +75,13 @@ function codeForcesRandom(){
             })
         }
     })
+}
+
+function codeForcesClear(){
+   for(let i = 1;i<=arr.length;i++){
+       if($(`#competitiveTrainer #tags #${i}`).prop('checked')){
+		   $(`#competitiveTrainer #tags #${i}`).prop('checked',false);
+       }
+   }
+   $(`.tagLabel`).toggleClass('selected',false);
 }
