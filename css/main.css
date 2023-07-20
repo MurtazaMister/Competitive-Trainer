@@ -8,7 +8,7 @@
 
 #competitiveTrainer .options-container{
     display: flex;
-    height: 100px;
+    height: 250px;
     flex-direction: row;
 }
 
