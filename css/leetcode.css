@@ -41,7 +41,7 @@
     color: #ffc107;
 }
 #competitiveTrainer .difficulty.Hard{
-    color: blue;
+    color: red;
 }
 #competitiveTrainer .status{
     color: orange;
